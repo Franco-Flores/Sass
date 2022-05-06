@@ -1,0 +1,101 @@
+body{
+    background-color: #7ac2d4;
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #7ac2d4;
+    
+}
+
+.logo{
+    width: 100px;
+    border-radius: 6px;
+}
+
+
+.nav-link{
+    color: #284d6b;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1 { 
+    
+    font-size:2cm;
+    color: #15536d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 25px;
+}
+
+
+h2 {
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    ;
+}
+
+
+
+.parrafoindex {
+    margin: 10px 350px 25px 350px; 
+    text-align: justify;
+    text-indent: 20px;
+    background-color: #D4D3DB;
+    padding: 30px;
+    color: #4b4a4f;
+    
+}
+
+footer{
+        
+        height:320px;
+        width: 100%;
+        
+        
+    
+}
+
+footer a {
+    height: 156px;
+   
+}
+
+footer img {
+    height: 4cm;
+    width: 150px;
+}
+
+.FotoMayor{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: inline-block;
+    
+}
+
+p{
+    padding: 20px; ;
+    color: #002f55;
+    text-align: justify;
+   
+}
+
+
+
+
+
+.formulario {
+    
+    font-style: oblique;
+    color: #15536d;
+    
+}
+
+.mapa{
+    padding-left: 250px;
+    padding-top: -250px;
+}
+
+.carrucel{
+    padding-top: 95px;
+}
