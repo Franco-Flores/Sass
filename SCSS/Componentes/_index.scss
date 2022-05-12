@@ -1,19 +1,47 @@
+body{
+    background-color: $color-principal;
+}
+
+header {
+    @extend %arriba;
+}
+
 div a {
     color: $color-principal
 }
 
 h1{
-    background-color: $color-principal;
+    
+    font-size: map-get($tamaño-tipografia , titulo);
+    @extend %flex-center;
+    @include flexbox(column, flex-end, center);
+    color: map-get($color-letras, colortitulo );
+}
+
+h2{
+    font-size: map-get(
+        $tamaño-tipografia , subtitulos );
 }
 
 p{
     font-family: $texto;
 }
 
-.footer{
-    color: $colorabajo;
-}
+
+
 
 .logo{
     width: $medidalogo;
+}
+
+.parrafoindex {
+    
+    justify-content: center;
+    background-color: $parrafofondo;
+    margin: 10px 350px 25px 350px;
+    text-align: justify;
+    padding: 30px;
+    color: map-get($color-letras, colorparrafo );
+    
+
 }

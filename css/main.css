@@ -1,14 +1,40 @@
+/* Maps */
+/* Extend */
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header {
+  background-color: #a0d9e7; }
+
+body {
+  background-color: #7ac2d4; }
+
 div a {
-  color: #a92d6d; }
+  color: #7ac2d4; }
 
 h1 {
-  background-color: #a92d6d; }
+  font-size: 50px;
+  display: flex;
+  direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #631717; }
+
+h2 {
+  font-size: 20px; }
 
 p {
   font-family: comic; }
 
-.footer {
-  color: #ccc; }
-
 .logo {
-  width: 20px; }
+  width: 100px; }
+
+.parrafoindex {
+  justify-content: center;
+  background-color: #D4D3DB;
+  margin: 10px 350px 25px 350px;
+  text-align: justify;
+  padding: 30px;
+  color: #4b4a4f; }

@@ -1,8 +1,47 @@
-$color-principal: rgb(169, 45, 109);
+$color-principal: #7ac2d4;
 
 $texto: comic;
 
 $colorabajo: #ccc;
 
+$medidalogo: 100px;
 
-$medidalogo: 20px;
+$parrafofondo: #D4D3DB;
+
+
+
+
+
+/* Maps */
+
+$tamaño-tipografia:(
+    titulo:50px,
+    subtitulos:20px,
+    parrafo:18px,
+);
+
+
+$color-letras:(
+    colorparrafo: #4b4a4f,
+    colortitulo: rgb(99, 23, 23),
+)
+;
+/* Extend */
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+%arriba {
+    background-color: #a0d9e7;
+};
+
+@mixin flexbox ($direction, $justify, $aling){
+    display: flex;
+    direction: $direction ;
+    justify-content: $justify;
+    align-items: $aling;
+
+};

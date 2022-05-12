@@ -1,0 +1,5 @@
+h1{
+    
+    font-size: map-get($tamaño-tipografia , titulo);
+    color: map-get($color-tipografia, colortitulo );
+}
