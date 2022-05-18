@@ -8,6 +8,21 @@ h1 {
 header {
   background-color: #a0d9e7; }
 
+.fotomayor:hover {
+  padding-left: 50px;
+  filter: saturate(180%); }
+
+.textohistoria {
+  padding: 50px;
+  text-align: justify; }
+
+footer a {
+  height: 156px; }
+
+footer img {
+  height: 4cm;
+  width: 150px; }
+
 body {
   background-color: #7ac2d4; }
 
@@ -18,12 +33,13 @@ h1 {
   font-size: 50px;
   display: flex;
   direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  color: #631717; }
+  color: #0b3562; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: serif; }
 
 p {
   font-family: comic; }
@@ -37,4 +53,39 @@ p {
   margin: 10px 350px 25px 350px;
   text-align: justify;
   padding: 30px;
-  color: #4b4a4f; }
+  color: #0e5556; }
+
+h1 {
+  font-size: 50px;
+  color: #0b3562; }
+
+.FotoMayor {
+  padding-right: 5cm; }
+
+.textohistoria {
+  font-size: 20px;
+  color: #0e5556; }
+
+.carrucel {
+  padding-top: 8px; }
+
+.subtitulos {
+  display: flex;
+  justify-content: center;
+  color: #0b3562;
+  font-size: 20px;
+  font-size: 2cm; }
+
+form {
+  padding-left: 25px;
+  color: #0e5556; }
+
+p {
+  padding-left: 25px;
+  margin-top: 20px;
+  color: #0e5556; }
+
+iframe {
+  box-shadow: 30px 30px 30px rgba(90, 98, 123, 0.5);
+  border-radius: 20px;
+  align-items: center; }

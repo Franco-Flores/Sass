@@ -17,13 +17,13 @@ $parrafofondo: #D4D3DB;
 $tamaño-tipografia:(
     titulo:50px,
     subtitulos:20px,
-    parrafo:18px,
+    parrafo:24px,
 );
 
 
 $color-letras:(
-    colorparrafo: #4b4a4f,
-    colortitulo: rgb(99, 23, 23),
+    colorparrafo: #0e5556,
+    colortitulo: rgb(11, 53, 98),
 )
 ;
 /* Extend */
@@ -45,3 +45,27 @@ $color-letras:(
     align-items: $aling;
 
 };
+
+
+
+.fotomayor:hover{
+    
+    padding-left: 50px;
+    filter: saturate(180%);
+    
+};
+
+.textohistoria{
+    padding: 50px;
+    text-align: justify
+};
+
+footer a {
+    height: 156px;
+   
+}
+
+footer img {
+    height: 4cm;
+    width: 150px;
+}

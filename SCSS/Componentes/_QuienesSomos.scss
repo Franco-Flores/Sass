@@ -1,0 +1,16 @@
+h1{
+    
+    font-size: map-get($tamaño-tipografia , titulo);
+    color: map-get($color-letras, colortitulo );
+}
+;
+
+.FotoMayor{
+    padding-right: 5cm;
+};
+
+.textohistoria{
+    font-size: 20px;
+    color:map-get($color-letras, colorparrafo )
+}
+

@@ -14,13 +14,15 @@ h1{
     
     font-size: map-get($tamaño-tipografia , titulo);
     @extend %flex-center;
-    @include flexbox(column, flex-end, center);
+    @include flexbox(column, center, center);
     color: map-get($color-letras, colortitulo );
 }
 
 h2{
     font-size: map-get(
         $tamaño-tipografia , subtitulos );
+
+    font-family: serif;    
 }
 
 p{
@@ -44,4 +46,4 @@ p{
     color: map-get($color-letras, colorparrafo );
     
 
-}
+};
